@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Payspace Tax Rate Calculation</h1>
+    <label>Select Postal Code:&nbsp;</label>
+    <select id="PostalCodeSelect">
+        <option></option>
+
+    </select>
+    <label>Annual Income:&nbsp;</label>
+    <input id="txtAnnualInc" type="text" />
+    <br />
+    <input id="btnCalculate" type="button" value="Calculate" />
+</div>

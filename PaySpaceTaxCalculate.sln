@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpaceTaxCalculate.API", "PaySpaceTaxCalculate.API\PaySpaceTaxCalculate.API.csproj", "{DD951AFD-29E8-47C6-B9E0-0FA22C64F2A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpaceTaxCalculate.Core", "PaySpaceTaxCalculate.Core\PaySpaceTaxCalculate.Core.csproj", "{B30ACCC3-8992-44CA-87D5-C0970B85C411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpaceTaxCalculate.Application", "PaySpaceTaxCalculate.Application\PaySpaceTaxCalculate.Application.csproj", "{EBFFDB30-1011-4DA5-8C37-578A11662CC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpaceTaxCalculate.Infrastructure", "PaySpaceTaxCalculate.Infrastructure\PaySpaceTaxCalculate.Infrastructure.csproj", "{AC0DBC64-1E50-4AEB-8162-672871EF8BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpaceTaxCalculate.Web", "PaySpaceTaxCalculate.Web\PaySpaceTaxCalculate.Web.csproj", "{34007037-8E84-47C0-8405-F299D438EE77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpaceTaxCalculate.Test", "PaySpaceTaxCalculate.Test\PaySpaceTaxCalculate.Test.csproj", "{71FB6E32-3EF2-4561-8BF7-0BB9F72B7348}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD951AFD-29E8-47C6-B9E0-0FA22C64F2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD951AFD-29E8-47C6-B9E0-0FA22C64F2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD951AFD-29E8-47C6-B9E0-0FA22C64F2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD951AFD-29E8-47C6-B9E0-0FA22C64F2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30ACCC3-8992-44CA-87D5-C0970B85C411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30ACCC3-8992-44CA-87D5-C0970B85C411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30ACCC3-8992-44CA-87D5-C0970B85C411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30ACCC3-8992-44CA-87D5-C0970B85C411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBFFDB30-1011-4DA5-8C37-578A11662CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFFDB30-1011-4DA5-8C37-578A11662CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFFDB30-1011-4DA5-8C37-578A11662CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFFDB30-1011-4DA5-8C37-578A11662CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0DBC64-1E50-4AEB-8162-672871EF8BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0DBC64-1E50-4AEB-8162-672871EF8BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0DBC64-1E50-4AEB-8162-672871EF8BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0DBC64-1E50-4AEB-8162-672871EF8BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34007037-8E84-47C0-8405-F299D438EE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34007037-8E84-47C0-8405-F299D438EE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34007037-8E84-47C0-8405-F299D438EE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34007037-8E84-47C0-8405-F299D438EE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71FB6E32-3EF2-4561-8BF7-0BB9F72B7348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FB6E32-3EF2-4561-8BF7-0BB9F72B7348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FB6E32-3EF2-4561-8BF7-0BB9F72B7348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FB6E32-3EF2-4561-8BF7-0BB9F72B7348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E35D4584-D49F-4065-908B-0EBB1A84835E}
+	EndGlobalSection
+EndGlobal
