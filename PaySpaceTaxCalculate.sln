@@ -3,17 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpaceTaxCalculate.API", "PaySpaceTaxCalculate.API\PaySpaceTaxCalculate.API.csproj", "{DD951AFD-29E8-47C6-B9E0-0FA22C64F2A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpaceTaxCalculate.API", "PaySpaceTaxCalculate.API\PaySpaceTaxCalculate.API.csproj", "{DD951AFD-29E8-47C6-B9E0-0FA22C64F2A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpaceTaxCalculate.Core", "PaySpaceTaxCalculate.Core\PaySpaceTaxCalculate.Core.csproj", "{B30ACCC3-8992-44CA-87D5-C0970B85C411}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpaceTaxCalculate.Core", "PaySpaceTaxCalculate.Core\PaySpaceTaxCalculate.Core.csproj", "{B30ACCC3-8992-44CA-87D5-C0970B85C411}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpaceTaxCalculate.Application", "PaySpaceTaxCalculate.Application\PaySpaceTaxCalculate.Application.csproj", "{EBFFDB30-1011-4DA5-8C37-578A11662CC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpaceTaxCalculate.Application", "PaySpaceTaxCalculate.Application\PaySpaceTaxCalculate.Application.csproj", "{EBFFDB30-1011-4DA5-8C37-578A11662CC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpaceTaxCalculate.Infrastructure", "PaySpaceTaxCalculate.Infrastructure\PaySpaceTaxCalculate.Infrastructure.csproj", "{AC0DBC64-1E50-4AEB-8162-672871EF8BBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpaceTaxCalculate.Infrastructure", "PaySpaceTaxCalculate.Infrastructure\PaySpaceTaxCalculate.Infrastructure.csproj", "{AC0DBC64-1E50-4AEB-8162-672871EF8BBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpaceTaxCalculate.Web", "PaySpaceTaxCalculate.Web\PaySpaceTaxCalculate.Web.csproj", "{34007037-8E84-47C0-8405-F299D438EE77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpaceTaxCalculate.Web", "PaySpaceTaxCalculate.Web\PaySpaceTaxCalculate.Web.csproj", "{34007037-8E84-47C0-8405-F299D438EE77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpaceTaxCalculate.Test", "PaySpaceTaxCalculate.Test\PaySpaceTaxCalculate.Test.csproj", "{71FB6E32-3EF2-4561-8BF7-0BB9F72B7348}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpaceTaxCalculate.Test", "PaySpaceTaxCalculate.Test\PaySpaceTaxCalculate.Test.csproj", "{71FB6E32-3EF2-4561-8BF7-0BB9F72B7348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase_Backup", "DataBase_Backup", "{63F4BF44-F81F-4C89-8307-177B7506BBC2}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\lavel\PayspaceTestDB.bak = C:\Users\lavel\PayspaceTestDB.bak
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
