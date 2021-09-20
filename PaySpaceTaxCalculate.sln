@@ -15,11 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpaceTaxCalculate.Web", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpaceTaxCalculate.Test", "PaySpaceTaxCalculate.Test\PaySpaceTaxCalculate.Test.csproj", "{71FB6E32-3EF2-4561-8BF7-0BB9F72B7348}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase_Backup", "DataBase_Backup", "{63F4BF44-F81F-4C89-8307-177B7506BBC2}"
-	ProjectSection(SolutionItems) = preProject
-		C:\Users\lavel\PayspaceTestDB.bak = C:\Users\lavel\PayspaceTestDB.bak
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
