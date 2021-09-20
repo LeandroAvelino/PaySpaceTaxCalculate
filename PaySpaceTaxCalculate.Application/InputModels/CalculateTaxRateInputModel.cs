@@ -10,5 +10,6 @@ namespace PaySpaceTaxCalculate.Application.InputModels
     {
         public decimal AnnualIncome { get; set; }
         public decimal Rate { get; set; }
+        public string PostalCode { get; set; }
     }
 }
